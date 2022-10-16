@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: ci",
+      "code": "ENOENT",
+      "stack": "Error: not found: ci\n    at getNotFoundError (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:41575:51)\n    at Function.whichSync [as sync] (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:41652:13)\n    at getCommandAbsolutePathSync (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:43217:44)\n    at default_1 (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:43226:32)\n    at C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:178152:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\17513\\home\\RSS_hub_vercel",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: ci",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: ci\n    at getNotFoundError (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:41575:51)\n    at Function.whichSync [as sync] (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:41652:13)\n    at getCommandAbsolutePathSync (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:43217:44)\n    at default_1 (C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:43226:32)\n    at C:\\software\\nodejs\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:178152:39"
+    }
+  }
+}
